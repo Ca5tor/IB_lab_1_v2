@@ -6,7 +6,7 @@ void fun(std::string ind) {
 	std::string little_en = "abcdefghijklmnopqrstuvwxyz";
 	std::string big_en = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	int n = ind.length(); // Длина индефикатора
+	int n = ind.length(); // Р”Р»РёРЅР° РёРЅРґРµС„РёРєР°С‚РѕСЂР°
 	int N = n * n * n * n;
 	int num = N % 100, b6, b7;
 
@@ -30,7 +30,7 @@ void main() {
 	std::string ind = "";
 	std::cout << "Enter identifier: ";
 		std::cin >> ind;
-	std::cout << std::endl;й генай
+	std::cout << std::endl;
 	std::cout << "Password: ";
 		fun(ind);
 	std::cout << std::endl;
